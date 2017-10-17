@@ -1,10 +1,11 @@
 {
-  "name": "angular-ui-select",  
-  "homepage": "https://github.com/angular-ui/ui-select",
+  "name": "sf-angular-ui-select",
+  "homepage": "https://github.com/smartfoxes/ui-select",
   "authors": [
-    "AngularUI"
+    "AngularUI", "SmartFoxes"
   ],
-  "description": "AngularJS ui-select",
+  "version": "2.0.0",
+  "description": "Customized AngularJS ui-select",
   "main": [
     "dist/select.js",
     "dist/select.css"
