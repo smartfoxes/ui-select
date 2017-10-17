@@ -3,12 +3,12 @@
     "description": "AngularJS UI Select",
     "keywords": ["angular", "angular-ui", "select", "select2", "angularjs"],
     "type": "component",
-    "homepage": "https://github.com/angular-ui/ui-select",
+    "homepage": "ttps://github.com/smartfoxes/ui-select",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/angular-ui/ui-select/issues",
-        "wiki": "https://github.com/angular-ui/ui-select/wiki",
-        "source": "https://github.com/angular-ui/ui-select"
+        "issues": "ttps://github.com/smartfoxes/ui-select/issues",
+        "wiki": "ttps://github.com/smartfoxes/ui-select/wiki",
+        "source": "ttps://github.com/smartfoxes/ui-select"
     },
     "require": {
         "robloach/component-installer": "*"
