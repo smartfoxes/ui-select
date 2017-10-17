@@ -2,9 +2,9 @@
   "name": "sf-angular-ui-select",
   "homepage": "https://github.com/smartfoxes/ui-select",
   "authors": [
-    "AngularUI", "SmartFoxes"
+    "SmartFoxes"
   ],
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Customized AngularJS ui-select",
   "main": [
     "dist/select.js",
