@@ -67,7 +67,7 @@ uis.controller('uiSelectCtrl',
 
   ctrl.getPlaceholder = function(){
     if(ctrl.multiple) return ctrl.placeholder;
-    if(!ctrl.selected && ctrl.selected.length) return;
+    if(ctrl.selected && ctrl.selected.length) return;
     return ctrl.placeholder;
   };
 
