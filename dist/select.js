@@ -1,7 +1,7 @@
 /*!
  * ui-select
  * https://github.com/smartfoxes/ui-select
- * Version: 0.19.8 - 2017-10-17T21:11:03.987Z
+ * Version: 0.19.8 - 2017-10-18T05:12:36.461Z
  * License: MIT
  */
 
@@ -368,7 +368,8 @@ uis.controller('uiSelectCtrl',
   };
 
   ctrl.getPlaceholder = function(){
-    if(!ctrl.multiple && !ctrl.selected && ctrl.selected.length) return;
+    if(ctrl.multiple) return ctrl.placeholder;
+    if(ctrl.selected && ctrl.selected.length) return;
     return ctrl.placeholder;
   };
 
